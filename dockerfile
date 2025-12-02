@@ -1,2 +1,2 @@
-FROM nginx
-COPY nginx.conf /etc/nginx/nginx.conf
+FROM php:7.4-apache
+COPY . /var/www/html
